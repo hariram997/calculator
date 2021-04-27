@@ -53,7 +53,7 @@ function Calculator() {
 				disabled={!isInputsValid}
 				onClick={handleButtonClick}
 				style={
-					isInputsValid && selectedButton === "additionBtn"
+					isInputsValid && selectedButton === "additionButton"
 						? { backgroundColor: "yellow" }
 						: { backgroundColor: "white" }
 				}
